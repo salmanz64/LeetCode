@@ -12,8 +12,7 @@ class Solution:
         
         for i in range(len(a)-1,-1,-1):
             soln = int(a[i]) + int(b[i])
-            
-            if soln == 2:
+                        if soln == 2:
                 op = str(0+carry) + op
                 carry = 1
                 
